@@ -311,6 +311,7 @@ def chat_handler(message, history, state):
     # Save user message
     history.append({"role": "user", "content": message})
 
+
     # ---------------------------
     # 1. Language selection
     # ---------------------------

@@ -28,6 +28,9 @@ Agents are the perfect solution because they allow:
 
 ### **High-Level Architecture**
 
+
+![Flow Diagram](app/assets/flow_diagram.png)
+
 ### **Components**
 - **Router Agent** → Detects language + intent  
 - **Diet Agent** → Calculates calories, plans 7-day meals, exercise  
@@ -48,6 +51,14 @@ Example placeholder:
 ▶️ **Demo Video:** https://youtu.be/your-video-link  
 
 Screenshots:
+ ### Screenshots:
+![Demo 1](docs/Demo_Images/1.png)
+
+![Demo 2](docs/Demo_Images/2.png)
+
+![Demo 3](docs/Demo_Images/3.png)
+
+![Demo 4](docs/Demo_Images/4.png)
 
 
 ---
@@ -110,15 +121,7 @@ AI-Concierge-Agent/
 │
 ├── docs/
 │   └── Demo_Images/             # Demo screenshots
-│       ├── 1.png
-│       ├── 2.png
-│       ├── 3.png
-│       ├── 4.png
-│       ├── 5.png
-│       ├── 6.png
-│       ├── 7.png
-│       └── 8.png
-│
+│      
 ├── .gitignore
 └── README.md
 ```
@@ -127,7 +130,10 @@ AI-Concierge-Agent/
 
 ---
 
-## 🧩 How It Works  
+## 🧩 How It Works 
+
+![Architecture](app/assets/architecture.png)
+
 ### 1. User starts → selects a language  
 ### 2. Router detects intent  
 ### 3. Agent asks structured questions  
