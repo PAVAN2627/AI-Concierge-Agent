@@ -93,21 +93,35 @@ Tracks sessions, LLM calls, total messages.
 ---
 
 ## 📁 Project Structure  
+```
 AI-Concierge-Agent/
 │
 ├── app/
-│ ├── app.py # Main application
-│ ├── memory/
-│ │ ├── concierge_memory.json
-│ │ └── concierge_metrics.json
-│ ├── assets/
-│ │ ├── architecture.png
-│ │ └── thumbnail.png
-│ ├── requirements.txt
-│ └── runtime.txt
+│   ├── app.py                    # Main application
+│   ├── assets/
+│   │   ├── architecture.png      # Architecture diagram
+│   │   ├── flow_diagram.png      # Flow diagram
+│   │   └── thumbnail.png         # Project thumbnail
+│   ├── memory/
+│   │   ├── concierge_memory.json # User preferences storage
+│   │   └── concierge_metrics.json# Usage metrics
+│   ├── requirements.txt          # Python dependencies
+│   └── runtime.txt              # Runtime configuration
 │
-├── README.md
-└── .gitignore
+├── docs/
+│   └── Demo_Images/             # Demo screenshots
+│       ├── 1.png
+│       ├── 2.png
+│       ├── 3.png
+│       ├── 4.png
+│       ├── 5.png
+│       ├── 6.png
+│       ├── 7.png
+│       └── 8.png
+│
+├── .gitignore
+└── README.md
+```
 
 
 
@@ -146,37 +160,5 @@ python app.py
 Paste app.py → Run → Share URL.
 2. HuggingFace Spaces
 Upload folder → Select Gradio App → Set runtime.txt.
-3. Local FastAPI Server
-(Optional, included in repo)
-
-🔮 If I Had More Time
-
-
-Add fully autonomous agent loops
-
-
-Add meal images or travel map generation
-
-
-Add authentication & user profiles
-
-
-Add database instead of JSON
-
-
-Create mobile-friendly UI
-
-
-
-📝 License
-MIT License.
-
-⭐ Acknowledgements
-
-Google Gemini Team
-
-Kaggle Agents Intensive
-
-Open-source community
 
 
