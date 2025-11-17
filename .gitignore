@@ -1,0 +1,73 @@
+# =====================================================
+# Python
+# =====================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+.env
+.venv
+ENV/
+env/
+venv/
+
+# Jupyter / Kaggle Notebooks
+.ipynb_checkpoints/
+*.ipynb_convert
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+debug.log
+
+# =====================================================
+# Application Data
+# =====================================================
+# Your app writes persistent memory & metrics here
+concierge_memory.json
+concierge_metrics.json
+
+# Cached temp data (Kaggle / HF)
+tmp/
+temp/
+*.tmp
+*.cache
+
+# =====================================================
+# OS / Editor Files
+# =====================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# =====================================================
+# Deployment
+# =====================================================
+# Hugging Face
+/.hf_cache/
+huggingface/
+
+# Docker
+*.dockerfile
+docker/
